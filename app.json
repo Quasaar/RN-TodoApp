@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Not~Defteri",
+    "slug":"Basic-todo-app",
+    "description": "A Basic New Todo App",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "primaryColor":"#E62117",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "loading": {
+      "icon":"./assets/images/splash.png",
+      "hideExponentText": true
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1"
+    },
+    "android": {
+      "package":"com.companname.basictodoapp",
+      "versionCode":1,
+      "permissions":[]
+    }
+  }
+}
